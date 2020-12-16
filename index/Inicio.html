@@ -1,0 +1,176 @@
+<!DOCTYPE html> 
+
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" type="text/css" href="../style/estilos.css">
+        <script src="../js/javascript.js"></script>
+
+        <title>Recuperación 1º Evaluación</title>
+
+    </head>
+
+    <body> 
+        <h1>Biblioteca</h1>
+        
+        <div id="Pera">
+            <h2>Pera </h2>
+            <h3>1,10 €/Kg</h3>
+            <img src="../Imagenes/pera.jpg" id="imegenes" onclick="fruta(0)">
+            <br></br>
+            <h4>Introduzca el número de kilos deseados: </h4>
+            <input type="text" name="Pera" maxlength="40">
+            <br></br>
+        
+        </div>
+        <br></br>
+
+        <div id="Manzana">
+            <h2>Manzana</h2>
+            <h3>1,20 €/Kg</h3>
+            <img src="../Imagenes/manzana.png" id="imegenes" onclick="fruta(1)">
+            <br></br>
+            <h4>Introduzca el número de kilos deseados: </h4>
+            <input type="text" name="Naranja" maxlength="40">
+            <br></br>
+            
+        </div>
+        <br></br>
+
+        <div id="Uva">
+            <h2>Uva</h2>
+            <h3>1,30 €/Kg</h3>
+            <img src="../Imagenes/uva.jpg" id="imegenes" onclick="fruta(2)">
+            <br></br>
+            <h4>Introduzca el número de kilos deseados: </h4>
+            <input type="text" name="Manzana" maxlength="40">
+            <br></br>
+            
+        </div>
+        <br></br>
+
+        <div id="Melocotón">
+            <h2>Melocotón</h2>
+            <h3>1,40 €/Kg</h3>
+            <img src="../Imagenes/melocoton.jpg" id="imegenes" onclick="fruta(3)">
+            <br></br>
+            <h4>Introduzca el número de kilos deseados: </h4>
+            <input type="text" name="Melocotón" maxlength="40">
+            <br></br>
+            
+        </div>
+        <br></br>
+
+        <div id="Sandia">
+            <h2>Sandia</h2>
+            <h3>1,50 €/Kg</h3>
+            <img src="../Imagenes/sandia.jpg" id="imegenes" onclick="fruta(4)">
+            <br></br>
+            <h4>Introduzca el número de kilos deseados: </h4>
+            <input type="text" name="Sandia" maxlength="40">
+            <br></br>
+            
+        </div>
+        <br></br>
+
+        <div id="Melón">
+            <h2>Melón</h2>
+            <h3>1,60 €/Kg</h3>
+            <img src="../Imagenes/melon.jpg" id="imegenes" onclick="fruta(5)">
+            <br></br>
+            <h4>Introduzca el número de kilos deseados: </h4>
+            <input type="text" name="Melón" maxlength="40">
+            <br></br>
+            
+        </div>
+        <br></br>
+
+        <div id="Platanos">
+            <h2>Platanos</h2>
+            <h3>1,70 €/Kg</h3>
+            <img src="../Imagenes/platanos.jpg" id="imegenes" onclick="fruta(6)">
+            <br></br>
+            <h4>Introduzca el número de kilos deseados: </h4>
+            <input type="text" name="Platanos" maxlength="40">
+            <br></br>
+            
+        </div>
+        <br></br>
+
+        <div id="Kiwi">
+            <h2>Kiwi</h2>
+            <h3>1,80 €/Kg</h3>
+            <img src="../Imagenes/kiwi.jpg" id="imegenes" onclick="fruta(7)">
+            <br></br>
+            <h4>Introduzca el número de kilos deseados: </h4>
+            <input type="text" name="Kiwi" maxlength="40">
+            <br></br>
+            
+        </div>
+        <br></br>
+
+        <div id="Fresa">
+            <h2>Fresa</h2>
+            <h3>1,90 €/Kg</h3>
+            <img src="../Imagenes/fresa.jpeg" id="imegenes" onclick="fruta(8)">
+            <br></br>
+            <h4>Introduzca el número de kilos deseados: </h4>
+            <input type="text" name="Fresa" maxlength="40">
+            <br></br>
+            
+        </div>
+        <br></br>
+
+        <div id="Naranja">
+            <h2>Naranja</h2>
+            <h3>1,99 €/Kg</h3>
+            <img src="../Imagenes/naranja.jpg" id="imegenes" onclick="fruta(9)">
+            <br></br>
+            <h4>Introduzca el número de kilos deseados: </h4>
+            <input type="text" name="Naranja" maxlength="40">
+            <br></br>
+
+        </div>
+        <br></br>
+
+        <div id="cesta"></div>
+
+        <form action="ejemplo.php" method="get" id="contenedorF">
+            <br></br>
+            <p>Nombre ...............<input type="text" name="nombre" minlength="3" maxlength="15"></p>
+            <p>1ª Apellido ...........<input type="text" name="pApellido" maxlength="40"></p>
+            <p>2º Apellido ...........<input type="text" name="sApellido" maxlength="40"></p>
+            <p>Dirección .............<input type="text" name="direccion" maxlength="40"></p>
+            <p>E-mail...................<input type="email" name="direccionemail" placeholder="     susuario@servidor.com"></p>
+            <br></br>
+            <p>Pago:
+                <br></br>
+                <input type="radio" name="pg" value="Tarjeta"> Tarjeta
+                <input type="radio" name="pg" value="Contrareembolso"> Contrareembolso
+            </p>
+            <br></br>
+            <p>Tarjeta de Cliente:
+                <br></br>
+                <input type="radio" name="tc" value="si"> Si
+                <input type="radio" name="tc" value="no"> No
+                <br></br>
+                <p>
+                    <input type="text" name="codigoCliente" required pattern="[A-Za-z]{3}[0,9]{3}[/_.#&]{1}">
+                    
+                </p>
+            </p>
+
+            <br></br>
+            <button id="buton1" onclick="limpiarFormulario()">Limpiar Formulario</button>
+            <button id="buton2" onclick="realizarPedido()" type="submit">Realizar Pedido</button>
+            <br></br>
+
+        </form>
+        
+    </body>
+
+
+</html>
