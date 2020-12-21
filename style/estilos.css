@@ -43,7 +43,6 @@ body{
 }
 
 /* Validación Formulario---------------------------------------------------------------*/
-
 input {
     border: 2px solid currentcolor;
 }
@@ -90,76 +89,3 @@ background-image: linear-gradient(pink, red);
 }
 
 
-
-/* -------------------------------------------------------------------------------------------------------------------------*/
-/*
-div{
-    border-radius: 0px 33px 0px 33px;
-    -moz-border-radius: 0px 33px 0px 33px;
-    -webkit-border-radius: 0px 33px 0px 33px;
-    border: 2px solid #000000;
-    background-color: #FFF188;
-    text-align: center;
-    position: absolute;
-    width: 200px;
-    height: 300px;
-
-}
-*/
-
-/* Cesta -------------------------------------------------------------------------------------------------------------------------*/
-/* 
-#cesta{
-    float: left;
-    width: 550px;
-    position: absolute;
-    margin-left: 72%;
-    height: 55%;
-    overflow: auto;
-    margin-top: -7%;
-
-}
-*/
-
-/* Color validación formulario -----------------------------------------------------------------------------------*/
-/* 
-input {
-    border: 2px solid currentcolor;
-}
-
-input:invalid {
-    border: 2px dashed red;
-}
-
-input:invalid:focus {
-background-image: linear-gradient(pink, red);
-}
-*/
-
-/* Forma formulario ---------------------------------------------------------------------------------------------*/
-/* 
-#contenedorF{
-    float: left;
-    width: 500px;
-    border-radius: 0px 33px 0px 33px;
-    -moz-border-radius: 0px 33px 0px 33px;
-    -webkit-border-radius: 0px 33px 0px 33px;
-    border: 2px solid #000000;
-    background-color: #FFF188;
-    text-align: center;
-    margin-top: 26%;
-    margin-left: 25%;
-    
-}
-
-legend{
-    border-radius: 0px 33px 0px 33px;
-    -moz-border-radius: 0px 33px 0px 33px;
-    -webkit-border-radius: 0px 33px 0px 33px;
-    border: 0px solid #000000;
-    background-color: #F5FA52;
-    text-align: left;
-}
-
-
-*/
