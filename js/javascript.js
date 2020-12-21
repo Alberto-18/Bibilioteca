@@ -2,7 +2,21 @@
 
 
 //Seccion2-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+function seccionDos(){
+    let desplegable = document.getElementById("literatura");
+    let informacion = document.getElementById("seccion2");
+    informacion.innerHTML = "Los libros de tipo "+desplegable.value;
+    for (let index = 0; index < ArrayLibros.length; index++) {
+        if (desplegable.value == ArrayLibros[index].Literatura) {
+            informacion.innerHTML = "<div class='span'><p>"
+            +ArrayLibros[index].Nombre+"</p><span class=tooltiptext>Hay disponibles "
+            +ArrayLibros[index].NumeroCopias+" ejemplar/es.</span></div><br>";
 
+        }else{
+           informacion.innerHTML += "<div class='span'><p>"+ArrayLibros[index].Nombre+"</p><span class=tooltiptext>Hola</span></div><br>"; 
+        }
+   }   
+}
 
 //Seccion3-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 function imprimirMensajeFecha() {
