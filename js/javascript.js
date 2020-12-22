@@ -17,6 +17,26 @@ class Libro {
   
 }
 
+function selectInfantil(){
+    
+    let literatura = document.getElementById("literatura");
+    let divInfantil= document.getElementById("infantil");
+
+    if(literatura.value == "juvenil"){
+        divInfantil.setAttribute("hidden","");
+        divInfantil.setAttribute("disabled","");
+
+    }else if(literatura.value == "adulta"){
+        divInfantil.setAttribute("hidden","");
+        divInfantil.setAttribute("disabled","");
+
+    }else{
+        divInfantil.removeAttribute("hidden");
+        divInfantil.removeAttribute("disabled");
+
+    }
+
+}
 
 function recogerFormulario(){
     let literatura = document.getElementById("literatura");
